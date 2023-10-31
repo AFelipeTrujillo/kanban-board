@@ -14,7 +14,7 @@ import { ref, defineEmits } from 'vue';
 
 <template>
     <form @submit.prevent="hanbleSubmit">
-        <input type="text" v-bind="text" />
+        <input type="text" v-model="text" />
     </form>
 </template>
 
